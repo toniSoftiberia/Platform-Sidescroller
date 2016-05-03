@@ -84,8 +84,8 @@ public class PlayerPhisycs : MonoBehaviour {
             Debug.DrawRay(ray.origin, ray.direction);
 
             float skin = sideSkin;
-            if (PlayerController.IsRunning())
-                skin *= 10f;
+            //if (PlayerController.IsRunning())
+            //    skin *= 10f;
 
             if (Physics.Raycast(ray, out hit, Mathf.Abs(deltaX) + skin, collisionMask)) {
                 // Get Distance between player and ground

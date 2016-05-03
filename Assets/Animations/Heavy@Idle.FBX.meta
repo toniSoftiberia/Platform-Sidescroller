@@ -274,9 +274,20 @@ ModelImporter:
     bakeSimulation: 0
     resampleRotations: 1
     optimizeGameObjects: 0
-    motionNodeName: 
+    motionNodeName: <Root Transform>
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nDefault bone length found in this file is different
+      form the one found in the source avatar:\n\t'B_L_Foot' : position error = 39.274651
+      mm\n\t'B_R_Foot' : position error = 39.274723 mm\n\nClip 'Take 001' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'B_Spine2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'B_L_Finger02'
+      has scale animation that will be discarded.\n\t'B_L_Finger11' has scale animation
+      that will be discarded.\n\t'B_L_Finger12' has scale animation that will be discarded.\n\t'B_L_Finger21'
+      has scale animation that will be discarded.\n\t'B_L_Finger22' has scale animation
+      that will be discarded.\n\t'B_L_Finger31' has scale animation that will be discarded.\n\t'B_L_Finger32'
+      has scale animation that will be discarded.\n\t'B_L_Finger41' has scale animation
+      that will be discarded.\n\t'B_L_Finger42' has scale animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 0
@@ -303,9 +314,9 @@ ModelImporter:
       loopBlendPositionY: 1
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
+      keepOriginalPositionY: 0
       keepOriginalPositionXZ: 1
-      heightFromFeet: 0
+      heightFromFeet: 1
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
